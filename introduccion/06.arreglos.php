@@ -1,8 +1,9 @@
 <!-- arreglos indexados -->
 <?php
 
-
+// Python tiene 2 tipos de arreglos
 $colores = ["rojo", "verde", "azul"];
+$colores = array("rojo", "verde", "azul"); 
 
 echo"</pre>";
 var_dump($colores);
